@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background: #212121; 
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+#display {
+    margin: 20px auto;
+    height: 56px;
+    width: 260px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background: #424242; 
+    font-size: 36px;
+    color: #ffffff; 
+    text-align: right;
+    line-height: 56px;
+}
+
+.button {
+    display: inline-block;
+    margin: 6px;
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    background: #555555; 
+    color: #ffffff; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mathButtons {
+    color: #ffffff;
+    background-color: #007bff; 
+    border: none;
+}
+
+.digits {
+    color: #ffffff; 
+    background-color: #888888; 
+    border: none;
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+    background-color: #0056b3; 
+}
+
+#clearButton,
+#delButton {
+    color: #fff;
+    background-color: #dc3545; 
+    border: none;
+}
+
+#delButton:hover {
+    background-color: #b22a38; 
+}

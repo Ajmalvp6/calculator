@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+  <div class="container">
+	<fieldset id="container">
+		<form name="calculator">
+
+			<input id="display" type="text" name="display" readonly>
+
+			<input class="button digits" type="button" value="7" onclick="displayData(7)">
+			<input class="button digits" type="button" value="8" onclick="displayData(8)">
+			<input class="button digits" type="button" value="9"  onclick="displayData(9)">
+			<input class="button mathButtons" type="button" value="+"  onclick="displayData('+')">
+			<br>
+			<input class="button digits" type="button" value="4"  onclick="displayData(4)">
+			<input class="button digits" type="button" value="5"  onclick="displayData(5)">
+			<input class="button digits" type="button" value="6"  onclick="displayData(6)">
+			<input class="button mathButtons" type="button" value="-" onclick="displayData('-')">
+			<br>
+			<input class="button digits" type="button" value="1" onclick="displayData(1)">
+			<input class="button digits" type="button" value="2" onclick="displayData(2)">
+			<input class="button digits" type="button" value="3" onclick="displayData(3)">
+			<input class="button mathButtons" type="button" value="x" onclick="displayData('*')">
+			<br>
+			<input id="clearButton" class="button" type="button" value="C" onclick="allClear('')">
+			<input class="button digits" type="button" value="0" onclick="displayData(0)">
+			<input class="button mathButtons" type="button" value="=" onclick="findOut()">
+			<input class="button mathButtons" type="button" value="/" onclick="displayData('/')">
+			<input id="clearButton" class="button mathButtons" type="button" value="DEL" onclick="del()">
+			<input class="button digits" type="button" value="." onclick="displayData('.')">
+			<input class="button digits" type="button" value="(" onclick="displayData('(')">
+			<input class="button digits" type="button" value=")" onclick="displayData(')')">
+		</form>
+	</fieldset>
+</div>
+  </body>
+  <script src="./calc.js"></script>
+</html>
